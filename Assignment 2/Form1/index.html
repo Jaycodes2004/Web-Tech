@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form1</title>
+    <style>
+        .container {
+            margin: 0 auto;
+            width: 50%; /* Adjust width as needed */
+            padding: 20px;
+            border: 3px solid black; /* Border color around the form */
+            border-radius: 6%;
+        }
+
+        h3 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        /*input {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }*/
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3>REGISTRATION PAGE</h3>
+        <form>
+            <label for="fname" class="form">Name:</label>
+            <input type="text" id="fname" name="fname" ><br>
+            <label for="Password">Password:</label>
+            <input type="password" id="pwd" name="pwd"><br>
+            <label for="EmailID">Email ID:</label>
+            <input type="email" id="EmailID" name="EmailID"><br>
+            <label for="PhoneNo.">Phone Number:</label>
+            <input type="number" id="quantity" name="quantity"> <br><br>
+            <label>Gender:</label>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female" required> <br><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="birthday" name="birthday"><br><br>
+            <label>Languages Known</label>
+            <input type="checkbox" id="Lang1" name="English" value="English">
+            <label for="Lang1"> English</label>
+            <input type="checkbox" id="Lang2" name="Telugu" value="Telugu">
+            <label for="Lang2"> Telugu</label>
+            <input type="checkbox" id="Lang3" name="Hindi" value="Hindi">
+            <label for="Lang3"> Hindi</label>
+            <input type="checkbox" id="Lang4" name="Tamil" value="Tamil">
+            <label for="Lang4"> Tamil</label>
+            <label for="address">Address:</label></td><br><br>
+            <textarea id="address" name="address" rows="4" required></textarea>
+            <br><br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
