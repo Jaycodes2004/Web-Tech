@@ -12,23 +12,33 @@
             border: 3px solid black; /* Border color around the form */
             border-radius: 6%;
         }
-
+        .field{
+            padding-right: 10px;
+            padding-left: 100px;
+            margin: 1.5%;
+        }
         h3 {
             text-align: center;
             margin-bottom: 20px;
         }
-        /*input {
-            width: 100%;
-            padding: 12px 20px;
-            margin: 8px 0;
-            box-sizing: border-box;
+        input {
+            padding-right: 10px;
+            padding-left: 10px;
+            margin-top:  3%;
+            margin-left: 10px;
+        }/*
+        label {
+            padding-left: 4%;
+            margin-left: 10px;
         }*/
+        
     </style>
 </head>
 <body>
     <div class="container">
         <h3>REGISTRATION PAGE</h3>
         <form>
+            
             <label for="fname" class="form">Name:</label>
             <input type="text" id="fname" name="fname" ><br>
             <label for="Password">Password:</label>
@@ -37,6 +47,7 @@
             <input type="email" id="EmailID" name="EmailID"><br>
             <label for="PhoneNo.">Phone Number:</label>
             <input type="number" id="quantity" name="quantity"> <br><br>
+            
             <label>Gender:</label>
             <label for="male">Male</label>
             <input type="radio" id="male" name="gender" value="male" required>
@@ -52,8 +63,8 @@
             <input type="checkbox" id="Lang3" name="Hindi" value="Hindi">
             <label for="Lang3"> Hindi</label>
             <input type="checkbox" id="Lang4" name="Tamil" value="Tamil">
-            <label for="Lang4"> Tamil</label>
-            <label for="address">Address:</label></td><br><br>
+            <label for="Lang4"> Tamil</label><br><br>
+            <label for="address">Address:</label></td>
             <textarea id="address" name="address" rows="4" required></textarea>
             <br><br>
             <button type="submit">Submit</button>
