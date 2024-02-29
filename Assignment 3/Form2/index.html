@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="Jay Sharma">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <h3>Job Application Form</h3>
+        <form>
+            <div class="name" >
+                <label for="fname" class="form">First Name:</label>
+                <input type="text" id="fname" name="fname" >
+                <label for="lname" class="form">Last Name:</label>
+                <input type="text" id="lname" name="lname" ><br>
+            </div>
+            <div class="email" >
+                <label for="EmailID">Email ID:</label>
+                <input type="email" id="EmailID" name="EmailID" class="input-box" ><br>
+            </div>
+            
+            <label for="postion" class="form">Postion you are applying for</label>
+            <input type="text" id="postion" name="postion" class="input-box1"><br><br>
+            <label for="start">When can you start?</label>
+            <input type="date" id="start" name="start">
+            <label for="PhoneNo.">Phone Number:</label>
+            <input type="number" id="quantity" name="quantity"> <br><br>
+            <div >
+                <label >Are you willing to relocate?</label>
+                <label for="Yes" >Yes</label>
+                <input type="radio" id="Yes" name="chec" value="Yes" required>
+                <label for="No">No</label>
+                <input type="radio" id="No" name="chec" value="No" required>
+                <label for="Not_sure">Not Sure</label>
+                <input type="radio" id="Not_sure" name="chec" value="Not_sure" required><br><br>
+            </div>
+            
+            <label for="last_company" class="form">Last company you worked for </label>
+            <input type="text" id="last_company" name="last_company" class="input-box1"><br>
+            <label>Languages Known</label>
+            <input type="checkbox" id="Lang1" name="Java" value="Java">
+            <label for="Lang1"> Java</label>
+            <input type="checkbox" id="Lang2" name="Web Programming" value="Web Programming">
+            <label for="Lang2"> Web Programming</label>
+            <input type="checkbox" id="Lang3" name="Python" value="Python">
+            <label for="Lang3"> Python</label>
+            <input type="checkbox" id="Lang4" name="PhP" value="PhP">
+            <label for="Lang4"> PHP</label>
+            <br><br>
+            <label for="myfile">Upload Resume:</label>
+            <input type="file" id="myfile" name="myfile">
+            <br><br>
+            <button class="button1" type="submit">Submit</button>
+            <button type="reset" class="button2" >Reset</button>
+            
+        </form>
+    </div>
+</body>
+</html>
