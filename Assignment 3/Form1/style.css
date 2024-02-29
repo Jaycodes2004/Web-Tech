@@ -1,0 +1,93 @@
+body{
+    /* background-color: rgba(255,170,57,255); */
+    background-image: url("background.jpg");
+    background-size:100% 100%;
+
+}
+.container {
+    margin: 0 auto;
+    width: 50%; /* Adjust width as needed */
+    padding: 20px;
+    /* border: 3px solid black; Border color around the form */
+    border-radius: 6%;
+    /* background-image: url("background.jpg");
+    background-size:151% 100%;
+     */
+}
+.button1 {
+    background-color: #04AA6D; 
+    border: none;
+    color: white;
+    text-align:center;
+    padding: 10px 20px;
+    margin: 0px 20%;
+  }
+  .button1:hover {
+    animation: bubble 0.4s ease-out;
+  }
+  
+  @keyframes bubble {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+.button2 {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    text-align:center;
+    padding: 10px 20px;
+    margin: 0px 10%;
+  }
+  .button2:hover {
+    animation: bubble 0.4s ease-out;
+  }
+  
+  @keyframes bubble {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+}
+.form{
+    padding-right: 10px;
+    padding-left: 100px;
+    margin: 1.5%;
+    color: whitesmoke;
+    vertical-align:middle;
+}
+.form1{
+    color: whitesmoke;
+}
+.form2{
+    padding-right: 10px;
+    padding-left: 100px;
+    margin: 1.5%;
+}
+input[type=checkbox]:hover {
+    box-shadow:0px 5px 10px #09ff00;
+    color:white ;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+input {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top:  3%;
+    margin-left: 10px;
+}
+
